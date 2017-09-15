@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Advanced Form</title>
+    </head>
+    <body>
+        <h1>New England Resident Form</h1>
+        <form name="getForm" id="getForm" method="get" action="http://cscie12.dce.harvard.edu/echo">
+            <div>
+                <fieldset>
+                    <legend><h2>Personal Info</h2></legend>
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="firstName" id="firstName" autofocus required />
+                    <br />
+                    <label for="lastName">Last Name</label>
+                    <input type="text" name="lastName" id="lastName" required />
+                    <br />
+                    <label for="age">Age</label>
+                    <input type="number" name="age" id="age" min="18" max="65" /> (18 - 65)
+                    <br />
+                    <input type="radio" name="gender" value="male" />Male
+                    <input type="radio" name="gender" value="female"/>Female
+                </fieldset>
+                <br />
+            </div>
+            
+            <div>
+                <fieldset>
+                    <legend><h2>User Info</h2></legend>
+                    <label for="userName">User Name</label>
+                    <input type="text" name="userName" id="userName" required />
+                    <br />
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required />
+                    <br />
+                    <label for="confirm">Confirm</label>
+                    <input type="password" name="confirm" id="confirm" required />
+                </fieldset>
+                <br />
+            </div>
+                
+            <div>
+                <fieldset>
+                    <legend><h2>Contact Info</h2></legend>
+                    <label for="emailAddress">Email Address</label>
+                    <input type="email" name="emailAddress" id="emailAddress" size="50" placeholder="you@domain.com" required />
+                    <br />
+                    <input type="checkbox" name="updates" id="updates" value="yes" checked/>Send me updates<br/>
+                </fieldset>
+                <br />
+            </div>
+            
+            <div>
+                <fieldset>
+                    <legend><h2>State</h2></legend>
+                    <select name="state">
+                        <option value="">Select a State</option>
+                        <option value="CT">Connecticut</option>
+                        <option value="ME">Maine</option>
+                        <option value="MA">Massachusetts</option>
+                        <option value="NH">New Hampshire</option>
+                        <option value="RI">Rhode Island</option>
+                        <option value="VT">Vermont</option>
+                    </select>
+                </fieldset>
+            </div>
+
+            <div>
+                <h2>Comments</h2>
+                <textarea name="comments" rows="10" cols="50"></textarea>    
+            </div>
+            
+            <div>
+                <input type="hidden" name="transactonId" value="123abc456" />
+            </div>
+            
+            <div>
+                <br />
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">                
+            </div>
+        </form>
+    </body>
+</html>

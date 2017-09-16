@@ -1,0 +1,46 @@
+/* CSS Styles for index.html */
+
+/* HTML Tag Selector */
+body {
+    background-color: grey;
+    font-family: calibri, arial, helvetica, sans-serif;
+}
+
+footer {
+    text-align: right;
+    padding-right: 10px;
+    font-family: cursive;
+}
+
+/* ID Attribute Selector */
+#container {
+    background-color: lightgrey;
+    width: 25%;
+    margin: auto;
+    padding-left: 10px;
+}
+
+/* CLASS Attribute Selector */
+.desc {
+    font-style: italic;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: navy;
+}
+
+ul {
+    color: green;
+}
+
+ul li:first-child {
+    color: red;
+}
+
+ul li:last-child {
+    color: blue;
+}

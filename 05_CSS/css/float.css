@@ -1,0 +1,23 @@
+body {
+  font-family: tahoma,arial,sans-serif;
+  font-size: small;
+}
+p {
+  margin: 1em;
+  padding: 1em;
+  width: 30%;
+}
+img {
+    width: 177px;
+    height: 110px;
+}
+.no_float {
+  float: none;
+}
+.float_left {
+  float: left;
+}
+.float_right {
+  float: right;
+  clear: none;
+}

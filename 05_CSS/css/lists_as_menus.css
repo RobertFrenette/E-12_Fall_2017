@@ -1,0 +1,26 @@
+body {
+  font-family: tahoma,arial,sans-serif;
+  font-size: small;
+  width: 75%;
+}
+img {
+    width: 132px;
+    height: 82px;
+    padding: 5px;
+    margin: 5px;
+}
+ul#nav {
+  list-style: none;
+  padding-left: 0;
+}
+ul#nav li {
+  display: inline;
+  padding-left: 2em;
+  padding-right: 2em;
+  background-color: lightgrey;
+}
+ul#nav li:hover {
+  color: blue;
+  cursor: pointer;
+}
+ 

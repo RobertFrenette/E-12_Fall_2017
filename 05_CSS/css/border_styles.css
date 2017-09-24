@@ -1,0 +1,37 @@
+body {
+  font-family: tahoma,arial,sans-serif;
+  font-size: small;
+}
+p {
+  margin: 1em;
+  padding: 1em;
+  width: 30%;
+}
+img {
+    width: 177px;
+    height: 110px;
+}
+.dotted {
+  border: thin dotted #009;
+}
+.dashed {
+  border: medium dashed #009;
+}
+.outset {
+  border: thick outset #009;
+}
+.solid {
+  border: 3px solid #999;
+}
+.double {
+  border: 5px double #000;
+}
+.groove {
+  border: 10px groove #000;
+}
+.ridge {
+  border: 15px ridge #000;
+}
+.inset {
+  border: 20px inset #009;
+}

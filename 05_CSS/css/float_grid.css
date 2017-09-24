@@ -1,0 +1,23 @@
+body {
+  font-family: tahoma,arial,sans-serif;
+  font-size: small;
+  width: 75%;
+}
+img {
+    width: 132px;
+    height: 82px;
+    padding: 5px;
+    margin: 5px;
+}
+.gallery li {
+  float: left;
+  width: 150px;
+  height: 150px;
+  padding: 5px;
+  border: thin dotted #ccc;
+  margin: 5px;
+  text-align: center;
+  font-size: x-small;
+  list-style: none;
+}
+

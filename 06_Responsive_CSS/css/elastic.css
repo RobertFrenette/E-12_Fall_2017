@@ -1,0 +1,28 @@
+#wrapper {
+	width: 45em;
+	margin: 0 auto;
+}
+
+header {
+	width: 44em;
+	padding: 0.5em;
+}
+
+section {
+	width: 30em;
+	padding: 0.5em;
+	float: right;
+}
+
+nav {
+	width: 13em;
+	padding: 0.5em;
+	float: left;
+}
+
+footer {
+	width: 44em;
+	padding: 0.5em;
+	clear: both;
+    text-align: right;
+}

@@ -1,0 +1,23 @@
+#wrapper {
+	width: 750px;
+	margin: 0 auto;
+}
+
+header {
+	width: 100%;
+}
+
+section {
+	width: 540px;
+	float: right;
+}
+
+nav {
+	width: 160px;
+	float: left;
+}
+
+footer {
+	clear: both;
+    text-align: right;
+}

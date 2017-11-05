@@ -6,8 +6,6 @@ This Section covers jQuery.
 
  * [E-12_Fall_2017: Fiddle 7](https://jsfiddle.net/RMFrenette/2Lefxkcd/) jQuery.
 
-
- Input Form with new Elements - using jQuery
  
 ### Links:
 

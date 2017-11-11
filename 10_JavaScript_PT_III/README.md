@@ -1,4 +1,4 @@
-# Section 09_JavaScript_PT_III
+# Section 10_JavaScript_PT_III
 
 This Section covers JSON, AJAX and Dynamic Pages.
 
